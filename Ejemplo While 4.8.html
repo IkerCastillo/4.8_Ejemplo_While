@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejemplo While 4.8</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<script type="text/javascript">
+		
+		var i=0 //Se inicializa la variable “i” y se le asigna el valor 0.
+
+		while (i<7){ //Mientras “i” sea menor a 7 se realizará una iteración.
+
+		var incrementar = prompt("Dime si incremento"); //Se pregunta si se desea incrementar.
+
+		if (incrementar == 'no' || incrementar == 'NO' || incrementar == 'No') { //En caso de que el usuario diga que no el programa va a continuar sin salirse (línea siguiente).
+			alert("El ciclo es: " + i); //Visualizar en que ciclo va
+			continue; //Se va a continuar pero sin mostrar cambios de iteración, hasta escribir sí se verá reflejado.
+		}
+			i++ //Se hará el incremento en 1.
+		}
+
+	</script>
+
+</body>
+</html>
